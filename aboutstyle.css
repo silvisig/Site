@@ -1,0 +1,238 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Cardo', serif;
+
+}
+.navbar {
+    overflow: hidden;
+    background-color: #141212;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+    float: left;
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: white;
+}
+
+/* Style the "active" element to highlight the current page */
+.navbar a.active {
+    background-color: #101111;
+    color: white;
+}
+
+/* Style the search box inside the navigation bar */
+.navbar input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+body {
+    background: #fffafa;
+
+
+}
+.profile{
+    margin-top :60px;
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 0 20px rgba(0,0,0,.9);
+    background: #fff;
+    left: 40%;
+    top:10%;
+    position:absolute;
+    transform: translate(-50,-50%);
+    transition: 1s;
+    border-radius: 5%;
+}
+.content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+}
+.content div {
+    margin-top: 80%;
+}
+content h4 {
+    letter-spacing: 10px;
+    color:#000;
+
+}
+
+.content ul {
+    list-style: none;
+    margin-top: 20px;
+
+}
+.content ul li{
+    display: inline-block;
+    padding:10px;
+}
+.content ul li a {
+    font-size: 30px;
+    color:#000;
+    transition: 1s;
+}
+i.fa:hover{
+    cursor: pointer;
+    color: #03e9fa;
+    transform: scale(1.3);
+    transition: 1s;
+}
+.image {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+
+}
+.image img {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.profile:hover .image {
+    transform: scale(0.7) translateY(-200px);
+    box-shadow: 0 0 20px rgba(0,0,0,.9);
+    border-radius: 5%;
+}
+
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 20px auto 0;
+}
+
+.presentation {
+    position:relative;
+    top: 350px;
+    margin-bottom: 50px;
+    background-color: #FAFAFA;
+    color: #424242;
+    border-radius: 4px;
+    padding: 2rem 2rem 3rem 2rem;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+    0 3px 6px rgba(0,0,0,0.23);
+    height: 250px;
+    width: 1500px;;
+}
+.description {
+    text-align: center;
+    margin: 1.5rem 0 1rem 0;
+}
+.user_name{
+    font-size: 3rem;
+    margin-top: .5rem;
+}
+.user_job {
+    color: #BDBDBD;
+    margin-top: .4rem;
+    font-size: 1.85rem;
+    letter-spacing: .03rem;
+}
+.text {
+    text-align:justify;
+    font-weight: 300;
+    font-size: 2.5rem;
+    line-height: 2.6rem;
+}
+
+.help-button
+{
+    margin-top: 170px;
+    margin-bottom: 170px;
+}
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    height:300px;
+    border-style: solid;
+    border-image: url(gradient.png);
+    border-image-slice: 25;
+    border-image-width: 15px;
+    border-image-repeat: round;
+    border-width: 80px;
+
+
+}
+
+.projects {
+    display:flex;
+    position: relative;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    margin-left: 680px;
+    font-size:16px;
+
+}
+.neon{
+    padding: 20px 80px;
+    color: #151616;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    border: 1px solid #0c0c0c;
+    outline: 0;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+.neon:hover {
+    background: #161616;
+    color: #fff;
+    box-shadow: 0 0 5px #1c1d1d, 0 0 25px #1c1d1d, 0 0 50px #1c1d1d, 0 0 100px #1c1d1d;
+}
+
+/*Footer*/
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+
+    background-color: #111010;
+    padding: 2rem 1rem;
+    margin-top: 16px;
+    margin-left: 0;
+}
+
+footer .content-footer {
+    color: white;
+    display: flex;
+    font-size: 1.10rem;
+}
+
+footer .copyright {
+    flex-grow: 1;
+}
+
+

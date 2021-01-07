@@ -1,0 +1,131 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Cardo', serif;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+div {
+  text-align: left;
+  margin:auto;
+  width: auto;
+  height: auto;
+
+}
+    /* Add a black background color to the top navigation bar */
+.navbar {
+  overflow: hidden;
+
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%
+}
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: left;
+  display: block;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: white;
+}
+
+/* Style the "active" element to highlight the current page */
+.navbar a.active {
+  background-color: #101111;
+  color: white;
+}
+
+/* Style the search box inside the navigation bar */
+.navbar input[type=text] {
+  width: initial;
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+
+
+/* Full-width input fields */
+
+
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+
+
+
+/*video*/
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  width:50%;
+  height: 50%;
+}
+
+/* Add some content at the bottom of the video/page */
+
+
+
+/*Table*/
+
+
+
+  /*Footer*/
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+
+  background-color: #111010;
+  padding: 2rem 1rem;
+  margin-top: 16px;
+  margin-left: 0;
+}
+
+footer .content-footer {
+  color: white;
+  display: flex;
+  font-size: 1.10rem;
+}
+
+footer .copyright {
+  flex-grow: 1;
+}
+
